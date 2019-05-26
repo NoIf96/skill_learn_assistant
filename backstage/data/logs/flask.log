@@ -1,0 +1,91 @@
+
+
+2019-04-21 22:25:42,000 - flask.app:ERROR - D:\Environment\Anaconda3\lib\site-packages\flask\app.py: 第1761行 - 方法名:log_exception  错误信息: Exception on /api/skill_learn_assistant/admin/system/config/generate_model [POST]
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1816, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1831, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1957, in make_response
+    'The view function did not return a valid response. The'
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+
+
+2019-04-29 00:31:43,441 - flask.app:ERROR - D:\Environment\Anaconda3\lib\site-packages\flask\app.py: 第1761行 - 方法名:log_exception  错误信息: Exception on /api/skill_learn_assistant/admin/auth/get_current_user [GET]
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 259, in decorated_view
+    elif not current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:31:43,441 - flask.app:ERROR - D:\Environment\Anaconda3\lib\site-packages\flask\app.py: 第1761行 - 方法名:log_exception  错误信息: Exception on /api/skill_learn_assistant/admin/user/ordinary/list [GET]
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 259, in decorated_view
+    elif not current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance

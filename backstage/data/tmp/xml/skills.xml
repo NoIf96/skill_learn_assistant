@@ -1,0 +1,267 @@
+<?xml version="1.0" ?>
+<skills>
+    <skill>
+        <no>1001</no>   <!-- 序号 -->
+        <name>HTML</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>6</sort_secondary>   <!-- 其他:0 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33  -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1002</no>   <!-- 序号 -->
+        <name>Hadoop</name>   <!-- 名称 -->
+        <sort_major>20</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>30</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>21</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>3</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1003</no>   <!-- 序号 -->
+        <name>CSS</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>6</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1004</no>   <!-- 序号 -->
+        <name>SQL</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>25</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>43</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1005</no>   <!-- 序号 -->
+        <name>Bootstrap</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>6</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1006</no>   <!-- 序号 -->
+        <name>Unity3D</name>   <!-- 名称 -->
+        <sort_major>5</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>14</sort_secondary>   <!-- 其他:0 基础:1 移动端:2 网页端:3 大数据:4 人工智能:5 数据库:6 游戏引擎:14 服务端:8-->
+        <sort_language>8</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1007</no>   <!-- 序号 -->
+        <name>深度学习</name>   <!-- 名称 -->
+        <sort_major>20</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>33</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>34</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>3</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1008</no>   <!-- 序号 -->
+        <name>JavaScript</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>6</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1009</no>   <!-- 序号 -->
+        <name>React Native</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>1</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1010</no>   <!-- 序号 -->
+        <name>jQuery</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>6</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1011</no>   <!-- 序号 -->
+        <name>AngularJS</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>6</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1012</no>   <!-- 序号 -->
+        <name>机器学习</name>   <!-- 名称 -->
+        <sort_major>20</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>33</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>34</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1013</no>   <!-- 序号 -->
+        <name>Vue.js</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>6</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1014</no>   <!-- 序号 -->
+        <name>Cocos</name>   <!-- 名称 -->
+        <sort_major>5</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>14</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>8</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1015</no>   <!-- 序号 -->
+        <name>SQL注入</name>   <!-- 名称 -->
+        <sort_major>25</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>25</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>43</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1016</no>   <!-- 序号 -->
+        <name>密码学</name>   <!-- 名称 -->
+        <sort_major>25</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>25</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>30</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1017</no>   <!-- 序号 -->
+        <name>Node.js</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+   <skill>
+        <no>1018</no>   <!-- 序号 -->
+        <name>Swift</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>1</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>1</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1019</no>   <!-- 序号 -->
+        <name>C#</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>16</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1020</no>   <!-- 序号 -->
+        <name>PHP</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>40</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+        <skill>
+        <no>1021</no>   <!-- 序号 -->
+        <name>Android</name>   <!-- 名称 -->
+        <sort_major>1</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>1</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>21</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1022</no>   <!-- 序号 -->
+        <name>Python</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>34</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1023</no>   <!-- 序号 -->
+        <name>Django</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>34</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1024</no>   <!-- 序号 -->
+        <name>Redis</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>25</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>43</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1025</no>   <!-- 序号 -->
+        <name>Mysql</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>25</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>43</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1026</no>   <!-- 序号 -->
+        <name>Java</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>21</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1027</no>   <!-- 序号 -->
+        <name>C</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>26</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1028</no>   <!-- 序号 -->
+        <name>C++</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>26</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+   <skill>
+        <no>1029</no>   <!-- 序号 -->
+        <name>SQLite</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>25</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>43</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1030</no>   <!-- 序号 -->
+        <name>Servlet</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>21</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1031</no>   <!-- 序号 -->
+        <name>JSP</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>21</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>2</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1032</no>   <!-- 序号 -->
+        <name>Flask</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>21</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>34</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+    <skill>
+        <no>1033</no>   <!-- 序号 -->
+        <name>MongoDB</name>   <!-- 名称 -->
+        <sort_major>16</sort_major>   <!-- 其他:18 前端开发:1 游戏:5 后台开发:16 算法:20 网络安全:25 运维:30 -->
+        <sort_secondary>25</sort_secondary>   <!-- 移动端:1 网页端:6 游戏引擎:14 服务端:21 数据库:25 大数据:30 人工智能:33 -->
+        <sort_language>43</sort_language>   <!-- 前端:1 游戏:8 C#:16 JAVA:21 C++:26 算法:30 Python:34 PHP:40 数据库:43 -->
+        <sort_level>1</sort_level>    <!-- 入门:1 进阶:2 高级:3 -->
+    </skill>
+</skills>

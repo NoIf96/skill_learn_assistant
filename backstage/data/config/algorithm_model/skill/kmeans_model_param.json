@@ -1,0 +1,20 @@
+{
+    "default": {
+        "param": {
+            "n_clusters": 4,
+            "max_iter": 2000,
+            "n_init": 30,
+            "init": "k-means++",
+            "algorithm": "auto"
+        }
+    },
+    "tmp": {
+        "param": {
+            "n_clusters": 4,
+            "max_iter": 2000,
+            "n_init": 30,
+            "init": "k-means++",
+            "algorithm": "auto"
+        }
+    }
+}

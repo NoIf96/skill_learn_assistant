@@ -1,0 +1,8 @@
+# -*- coding:utf-8 -*-
+CLIENT_DEVELOPMENT_HOST = 'localhost'
+CLIENT_PRODUCTION_HOST = ''
+CLIENT_PORT = 27017
+USER_NAME = ''
+USER_PW = ''
+DB = ''
+AUTHENTICATION_SOUCRE = ''

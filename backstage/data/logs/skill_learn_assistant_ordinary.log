@@ -1,0 +1,242 @@
+
+
+2019-04-28 23:21:18,626 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\auth_api.py: 第33行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\auth_api.py", line 15, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 18, in load_user
+    user = OrdinaryUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-05-01 18:07:29,387 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\auth_api.py: 第36行 - 方法名:login  错误信息: 'LoginForm' object has no attribute 'csrf_token'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\auth_api.py", line 19, in login
+    print(form.csrf_token)
+AttributeError: 'LoginForm' object has no attribute 'csrf_token'
+
+
+2019-05-04 20:52:05,895 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\system_library\skill_api.py: 第28行 - 方法名:get_list_system_skill  错误信息: 'Skill' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\system_library\skill_api.py", line 25, in get_list_system_skill
+    new_model_objects = [{'name': model_object.get('name'), 'introduction': model_object.get('introduction')} for model_object in model_objects]
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\system_library\skill_api.py", line 25, in <listcomp>
+    new_model_objects = [{'name': model_object.get('name'), 'introduction': model_object.get('introduction')} for model_object in model_objects]
+AttributeError: 'Skill' object has no attribute 'get'
+
+
+2019-05-18 16:52:39,982 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第39行 - 方法名:get_list_skill  错误信息: 'Skill' object has no attribute 'label'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in get_list_skill
+    for skill in user_skill_list_data
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in <listcomp>
+    for skill in user_skill_list_data
+AttributeError: 'Skill' object has no attribute 'label'
+
+
+2019-05-18 16:52:39,982 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第39行 - 方法名:get_list_skill  错误信息: 'Skill' object has no attribute 'label'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in get_list_skill
+    for skill in user_skill_list_data
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in <listcomp>
+    for skill in user_skill_list_data
+AttributeError: 'Skill' object has no attribute 'label'
+
+
+2019-05-18 16:52:46,591 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第39行 - 方法名:get_list_skill  错误信息: 'Skill' object has no attribute 'label'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in get_list_skill
+    for skill in user_skill_list_data
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in <listcomp>
+    for skill in user_skill_list_data
+AttributeError: 'Skill' object has no attribute 'label'
+
+
+2019-05-18 16:52:46,591 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第39行 - 方法名:get_list_skill  错误信息: 'Skill' object has no attribute 'label'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in get_list_skill
+    for skill in user_skill_list_data
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 30, in <listcomp>
+    for skill in user_skill_list_data
+AttributeError: 'Skill' object has no attribute 'label'
+
+
+2019-05-18 17:41:46,922 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第41行 - 方法名:get_list_skill  错误信息: 'Skill' object has no attribute 'values'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 34, in get_list_skill
+    links = get_links(nodes)
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 80, in get_links
+    if node_i["skill"].values == node_j["skill"].values:
+AttributeError: 'Skill' object has no attribute 'values'
+
+
+2019-05-18 23:27:28,512 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第42行 - 方法名:get_list_skill  错误信息: 'Skill' object has no attribute 'sorsort_secondary'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 35, in get_list_skill
+    links = get_links(nodes)
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 83, in get_links
+    print(node_i["skill"].sorsort_secondary)
+AttributeError: 'Skill' object has no attribute 'sorsort_secondary'
+
+
+2019-05-19 12:22:52,382 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第42行 - 方法名:get_list_skill  错误信息: unsupported operand type(s) for -: 'str' and 'int'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 35, in get_list_skill
+    links = get_links(nodes)
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 94, in get_links
+    if node_i["value"] >= node_j["value"] - 10 and node_i["value"] <= node_j["value"] + 10:
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+
+
+2019-05-19 16:27:44,936 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第45行 - 方法名:get_list_skill  错误信息: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 38, in get_list_skill
+    links = get_links(nodes)
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 96, in get_links
+    node_i["skill"].sort_language <= node_i["skill"].sort_language + 10
+TypeError: can only concatenate str (not "int") to str
+
+
+2019-05-19 17:40:28,735 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第44行 - 方法名:get_list_skill  错误信息: get_key_value() missing 1 required positional argument: 'key'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 24, in get_list_skill
+    options = provider.get_key_value(sort_type)
+TypeError: get_key_value() missing 1 required positional argument: 'key'
+
+
+2019-05-19 17:40:31,734 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第44行 - 方法名:get_list_skill  错误信息: get_key_value() missing 1 required positional argument: 'key'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 24, in get_list_skill
+    options = provider.get_key_value(sort_type)
+TypeError: get_key_value() missing 1 required positional argument: 'key'
+
+
+2019-05-19 17:40:33,571 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py: 第44行 - 方法名:get_list_skill  错误信息: get_key_value() missing 1 required positional argument: 'key'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\user_library\skill_tree_api.py", line 24, in get_list_skill
+    options = provider.get_key_value(sort_type)
+TypeError: get_key_value() missing 1 required positional argument: 'key'
+
+
+2019-05-21 16:36:46,291 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\skill_api.py: 第24行 - 方法名:get_recommended_skill_list  错误信息: Found array with 0 sample(s) (shape=(0, 3)) while a minimum of 1 is required.
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\skill_api.py", line 20, in get_recommended_skill_list
+    algorithms_api.recommendation(user_skill_list_data, "main")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 57, in recommendation
+    blr.recommendation(users_skill_library_initial_clean)  # 推荐
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 70, in recommendation
+    kmeans_labels = self.__bis.predict_kmeans_label(users_library)
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\kernel\based_item_similarity.py", line 60, in predict_kmeans_label
+    return self.__kmeans_model.predict(x)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 1076, in predict
+    X = self._check_test_data(X)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 933, in _check_test_data
+    X = check_array(X, accept_sparse='csr', dtype=FLOAT_DTYPES)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 582, in check_array
+    context))
+ValueError: Found array with 0 sample(s) (shape=(0, 3)) while a minimum of 1 is required.
+
+
+2019-05-21 16:37:24,739 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\skill_api.py: 第24行 - 方法名:get_recommended_skill_list  错误信息: Found array with 0 sample(s) (shape=(0, 3)) while a minimum of 1 is required.
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\skill_api.py", line 20, in get_recommended_skill_list
+    algorithms_api.recommendation(user_skill_list_data, "main")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 58, in recommendation
+    blr.recommendation(users_skill_library_initial_clean)  # 推荐
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 70, in recommendation
+    kmeans_labels = self.__bis.predict_kmeans_label(users_library)
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\kernel\based_item_similarity.py", line 60, in predict_kmeans_label
+    return self.__kmeans_model.predict(x)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 1076, in predict
+    X = self._check_test_data(X)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 933, in _check_test_data
+    X = check_array(X, accept_sparse='csr', dtype=FLOAT_DTYPES)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 582, in check_array
+    context))
+ValueError: Found array with 0 sample(s) (shape=(0, 3)) while a minimum of 1 is required.
+
+
+2019-05-21 19:16:17,794 - skill_learn_assistant_ordinary:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\skill_api.py: 第45行 - 方法名:get_recommended_skill_tree  错误信息: 'node'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\skill_api.py", line 39, in get_recommended_skill_tree
+    recommended_data["nodes"] = [set_recommended_category(node) for node in recommended_data["node"]]
+KeyError: 'node'
+
+
+'2019-05-24 01:16:46,342'pis - 'skill_learn_assistant_ordinary'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\ordinary\\recommend_system\\occupation_api.py'pis: 第27行 - 方法名:'get_recommended_occupation_list'pis  错误信息: 'single positional indexer is out-of-bounds'pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\occupation_api.py", line 20, in get_recommended_occupation_list
+    recommended_occupation_list = algorithms_api.recommendation_occupation(user_skill_list, "main")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\apis\algorithms_api.py", line 78, in recommendation_occupation
+    recommended_occupation_list = blr.recommendation(users_skill_library_initial_clean)  # 推荐
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 82, in recommendation
+    recommended = [self.original_data.iloc[no].no for no in recommended_no]
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 82, in <listcomp>
+    recommended = [self.original_data.iloc[no].no for no in recommended_no]
+  File "D:\Environment\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "D:\Environment\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "D:\Environment\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+
+'2019-05-24 01:18:05,318'pis - 'skill_learn_assistant_ordinary'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\ordinary\\recommend_system\\occupation_api.py'pis: 第27行 - 方法名:'get_recommended_occupation_list'pis  错误信息: 'single positional indexer is out-of-bounds'pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\occupation_api.py", line 20, in get_recommended_occupation_list
+    recommended_occupation_list = algorithms_api.recommendation_occupation(user_skill_list, "main")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\apis\algorithms_api.py", line 78, in recommendation_occupation
+    recommended_occupation_list = blr.recommendation(users_skill_library_initial_clean)  # 推荐
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 83, in recommendation
+    recommended = [self.original_data.iloc[no].no for no in recommended_no]
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 83, in <listcomp>
+    recommended = [self.original_data.iloc[no].no for no in recommended_no]
+  File "D:\Environment\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1500, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "D:\Environment\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2230, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "D:\Environment\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 2139, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+
+'2019-05-24 10:10:57,130'pis - 'skill_learn_assistant_ordinary'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\ordinary\\recommend_system\\occupation_api.py'pis: 第27行 - 方法名:'get_recommended_occupation_list'pis  错误信息: "module 'algorithms.skill_learn_assistant.apis.algorithms_api' has no attribute 'recommendation_occupation'"pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\occupation_api.py", line 20, in get_recommended_occupation_list
+    recommended_occupation_list = algorithms_api.recommendation_occupation(user_skill_list, "main")
+AttributeError: module 'algorithms.skill_learn_assistant.apis.algorithms_api' has no attribute 'recommendation_occupation'
+
+
+'2019-05-24 10:13:00,013'pis - 'skill_learn_assistant_ordinary'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\ordinary\\recommend_system\\occupation_api.py'pis: 第27行 - 方法名:'get_recommended_occupation_list'pis  错误信息: "module 'algorithms.skill_learn_assistant.apis.algorithms_api' has no attribute 'recommendation_occupation'"pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\occupation_api.py", line 20, in get_recommended_occupation_list
+    recommended_occupation_list = algorithms_api.recommendation_occupation(user_skill_list, "main")
+AttributeError: module 'algorithms.skill_learn_assistant.apis.algorithms_api' has no attribute 'recommendation_occupation'
+
+
+'2019-05-24 10:14:27,680'pis - 'skill_learn_assistant_ordinary'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\ordinary\\recommend_system\\skill_api.py'pis: 第31行 - 方法名:'get_recommended_skill_tree'pis  错误信息: "'NoneType' object has no attribute 'labels'"pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\ordinary\recommend_system\skill_api.py", line 19, in get_recommended_skill_tree
+    recommended_skill_list = algorithms_api.recommendation(user_skill_list, "main")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\apis\algorithms_api.py", line 57, in recommendation
+    recommended_list = blr.recommendation(users_skill_library_initial_clean)  # 推荐
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 68, in recommendation
+    labels = self.__bis.labels  # 获取KMeans聚类标签
+AttributeError: 'NoneType' object has no attribute 'labels'

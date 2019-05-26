@@ -1,0 +1,171 @@
+2019-03-17 15:59:05,651 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/permission_convert.json 
+
+
+2019-03-17 15:59:05,663 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/permission_convert.json 
+
+
+2019-03-17 15:59:43,539 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/sort_convert.json 
+
+
+2019-03-17 15:59:43,540 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/sort_convert.json 
+
+
+2019-03-17 15:59:44,709 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/sort_convert.json 
+
+
+2019-03-17 15:59:44,711 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/sort_convert.json 
+
+
+2019-03-17 15:59:46,643 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/permission_convert.json 
+
+
+2019-03-17 15:59:46,647 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/permission_convert.json 
+
+
+2019-03-17 16:00:03,307 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/sort_convert.json 
+
+
+2019-03-17 16:00:03,313 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/config/convert/sort_convert.json 
+
+
+
+
+2019-03-17 16:19:05,728 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:\CODE\item\backstage\data\config/config/convert/sort_convert.json
+
+
+2019-03-17 16:19:05,729 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:\CODE\item\backstage\data\config/config/convert/sort_convert.json
+
+
+2019-03-17 16:19:10,387 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:\CODE\item\backstage\data\config/config/convert/sort_convert.json
+
+
+2019-03-17 16:19:10,391 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\json_manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:\CODE\item\backstage\data\config/config/convert/sort_convert.json
+
+
+2019-03-27 12:30:06,418 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\xml\manager.py: 第45行 - 方法名:read_xml  错误信息: root 读取xml文件失败， 读取路径为['no', 'name', 'sort_major', 'sort_secondary', 'sort_language', 'sort_level']
+
+
+2019-03-27 12:31:27,103 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\xml\manager.py: 第45行 - 方法名:read_xml  错误信息: root 读取xml文件失败， 读取路径为['no', 'name', 'sort_major', 'sort_secondary', 'sort_language', 'sort_level']
+
+
+2019-03-27 13:03:11,500 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\xml\manager.py: 第45行 - 方法名:read_xml  错误信息: root 读取xml文件失败， 读取路径为
+
+
+2019-03-27 13:05:29,812 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\xml\manager.py: 第45行 - 方法名:read_xml  错误信息: root 读取xml文件失败， 读取路径为F:/CODE/item/backstage/data/tmp\xml/skill.xml
+
+
+2019-03-27 13:08:40,003 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\xml\manager.py: 第45行 - 方法名:read_xml  错误信息: root 读取xml文件失败， 读取路径为F:/CODE/item/backstage/data/tmp\xml/skill.xml
+
+
+2019-03-27 13:09:17,831 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\xml\manager.py: 第45行 - 方法名:read_xml  错误信息: root 读取xml文件失败， 读取路径为F:/CODE/item/backstage/data/tmp/xml/skill.xml
+
+
+2019-04-24 13:50:48,260 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/algorithm_model/kmeans_model_param.json
+
+
+2019-04-24 13:50:48,322 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/algorithm_model/kmeans_model_param.json
+
+
+2019-04-24 13:50:50,715 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/algorithm_model/kmeans_model_param.json
+
+
+2019-04-24 13:50:50,747 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/algorithm_model/kmeans_model_param.json
+
+
+2019-04-24 13:50:51,221 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\manager.py: 第16行 - 方法名:read_json  错误信息: root 读取json数据失败， 读取路径为F:/CODE/item/backstage/data/config/algorithm_model/kmeans_model_param.json
+
+
+2019-04-24 14:02:00,619 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\provider.py: 第30行 - 方法名:get_key_value  错误信息: root {'info': {'db_name': 'item_datas', 'tab_name': 'skill', 'label': ['no', 'name', 'sort_major', 'sort_secondary', 'sort_language', 'sort_level'], 'no_use_label': ['no', 'name', 'sort_level']}} 不包含键：db_name, 'db_name'
+
+
+2019-04-24 14:02:00,619 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\provider.py: 第30行 - 方法名:get_key_value  错误信息: root {'info': {'db_name': 'item_datas', 'tab_name': 'skill', 'label': ['no', 'name', 'sort_major', 'sort_secondary', 'sort_language', 'sort_level'], 'no_use_label': ['no', 'name', 'sort_level']}} 不包含键：db_name, 'db_name'
+
+
+2019-04-24 14:02:02,925 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\provider.py: 第30行 - 方法名:get_key_value  错误信息: root {'info': {'db_name': 'item_datas', 'tab_name': 'skill', 'label': ['no', 'name', 'sort_major', 'sort_secondary', 'sort_language', 'sort_level'], 'no_use_label': ['no', 'name', 'sort_level']}} 不包含键：db_name, 'db_name'
+
+
+2019-04-24 14:02:02,925 - json_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\json\provider.py: 第30行 - 方法名:get_key_value  错误信息: root {'info': {'db_name': 'item_datas', 'tab_name': 'skill', 'label': ['no', 'name', 'sort_major', 'sort_secondary', 'sort_language', 'sort_level'], 'no_use_label': ['no', 'name', 'sort_level']}} 不包含键：db_name, 'db_name'
+
+
+'2019-05-23 15:14:05,198'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 9, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-23 15:14:05,199'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 9, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-23 17:10:29,609'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_neighbors': 3, 'radius': 1, 'algorithm': 'auto'}}, 'tmp': {'param': {'n_neighbors': 3, 'radius': 1, 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aA, 'A'"pis
+
+
+'2019-05-23 17:10:34,350'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_neighbors': 3, 'radius': 1, 'algorithm': 'auto'}}, 'tmp': {'param': {'n_neighbors': 3, 'radius': 1, 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1av, 'v'"pis
+
+
+'2019-05-23 17:12:21,804'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第24行 - 方法名:'write_json'pis  错误信息: 'root \u5199\u5165json\u6570\u636e\u5931\u8d25\uff0c \u5199\u5165\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:13:12,727'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第16行 - 方法名:'read_json'pis  错误信息: 'root \u8bfb\u53d6json\u6570\u636e\u5931\u8d25\uff0c \u8bfb\u53d6\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:17:16,682'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第16行 - 方法名:'read_json'pis  错误信息: 'root \u8bfb\u53d6json\u6570\u636e\u5931\u8d25\uff0c \u8bfb\u53d6\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:17:19,907'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第16行 - 方法名:'read_json'pis  错误信息: 'root \u8bfb\u53d6json\u6570\u636e\u5931\u8d25\uff0c \u8bfb\u53d6\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:17:22,091'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第16行 - 方法名:'read_json'pis  错误信息: 'root \u8bfb\u53d6json\u6570\u636e\u5931\u8d25\uff0c \u8bfb\u53d6\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:19:34,084'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第16行 - 方法名:'read_json'pis  错误信息: 'root \u8bfb\u53d6json\u6570\u636e\u5931\u8d25\uff0c \u8bfb\u53d6\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:19:37,140'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第16行 - 方法名:'read_json'pis  错误信息: 'root \u8bfb\u53d6json\u6570\u636e\u5931\u8d25\uff0c \u8bfb\u53d6\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:19:37,161'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第16行 - 方法名:'read_json'pis  错误信息: 'root \u8bfb\u53d6json\u6570\u636e\u5931\u8d25\uff0c \u8bfb\u53d6\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/knn_model_param.json'pis
+
+
+'2019-05-23 17:21:16,860'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\manager.py'pis: 第24行 - 方法名:'write_json'pis  错误信息: 'root \u5199\u5165json\u6570\u636e\u5931\u8d25\uff0c \u5199\u5165\u8def\u5f84\u4e3aF:/CODE/item/backstage/data/config/algorithm_model/kmeans_model_param.json'pis
+
+
+'2019-05-24 09:55:58,948'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'n_clusters': 5, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'} \u4e0d\u5305\u542b\u952e\uff1aparam, 'param'"pis
+
+
+'2019-05-24 09:56:01,576'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1azzz, 'zzz'"pis
+
+
+'2019-05-24 09:56:01,577'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1azzz, 'zzz'"pis
+
+
+'2019-05-24 09:56:03,835'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'n_clusters': 5, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'} \u4e0d\u5305\u542b\u952e\uff1aparam, 'param'"pis
+
+
+'2019-05-24 09:56:03,877'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'n_clusters': 5, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'} \u4e0d\u5305\u542b\u952e\uff1aparam, 'param'"pis
+
+
+'2019-05-24 09:58:20,276'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'n_clusters': 5, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'} \u4e0d\u5305\u542b\u952e\uff1aparam, 'param'"pis
+
+
+'2019-05-24 09:58:23,069'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-24 09:58:23,070'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-24 10:00:28,369'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'n_clusters': 5, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'} \u4e0d\u5305\u542b\u952e\uff1aparam, 'param'"pis
+
+
+'2019-05-24 10:00:31,334'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'n_clusters': 5, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'} \u4e0d\u5305\u542b\u952e\uff1aparam, 'param'"pis
+
+
+'2019-05-24 10:02:06,415'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 5, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-24 10:04:58,047'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-24 10:04:58,048'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-24 10:06:18,081'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis
+
+
+'2019-05-24 10:06:18,082'pis - 'json_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\data\\manager\\json\\provider.py'pis: 第28行 - 方法名:'get_key_value'pis  错误信息: "root {'default': {'param': {'n_clusters': 4, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}, 'tmp': {'param': {'n_clusters': 8, 'max_iter': 2000, 'n_init': 30, 'init': 'k-means++', 'algorithm': 'auto'}}} \u4e0d\u5305\u542b\u952e\uff1aa, 'a'"pis

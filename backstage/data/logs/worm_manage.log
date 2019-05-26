@@ -1,0 +1,166 @@
+
+
+2019-05-17 11:56:59,062 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,063 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,064 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,064 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,065 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,065 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,065 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,066 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,066 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,067 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,067 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,067 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,067 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,068 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,068 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 11:56:59,068 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第29行 - 方法名:update_introduction  错误信息: 'introduction'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 20, in update_introduction
+    if item["introduction"] == "" or item["introduction"] == "-":
+KeyError: 'introduction'
+
+
+2019-05-17 12:34:57,003 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第39行 - 方法名:get_one_introduction  错误信息: list index out of range
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 36, in get_one_introduction
+    introduction = get_one_data(name, url)
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 50, in get_one_data
+    content = items[0].get_text()
+IndexError: list index out of range
+
+
+2019-05-17 12:35:40,327 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第39行 - 方法名:get_one_introduction  错误信息: list index out of range
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 36, in get_one_introduction
+    introduction = get_one_data(name, url)
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 50, in get_one_data
+    content = items[0].get_text()
+IndexError: list index out of range
+
+
+2019-05-17 12:41:15,865 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第39行 - 方法名:get_one_introduction  错误信息: list index out of range
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 36, in get_one_introduction
+    introduction = get_one_data(name, url)
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 50, in get_one_data
+    content = items[0].get_text()
+IndexError: list index out of range
+
+
+2019-05-17 12:41:23,126 - worm_manage:ERROR - F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py: 第39行 - 方法名:get_one_introduction  错误信息: list index out of range
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 36, in get_one_introduction
+    introduction = get_one_data(name, url)
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 50, in get_one_data
+    content = items[0].get_text()
+IndexError: list index out of range
+
+
+'2019-05-24 18:41:58,012'pis - 'worm_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\worm\\baidu_encyclopedia.py'pis: 第38行 - 方法名:'get_one_introduction'pis  错误信息: 'list index out of range'pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 35, in get_one_introduction
+    introduction = get_one_data(name, url)
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 49, in get_one_data
+    content = items[0].get_text()
+IndexError: list index out of range
+
+
+'2019-05-24 18:42:32,695'pis - 'worm_manage'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\utils\\worm\\baidu_encyclopedia.py'pis: 第38行 - 方法名:'get_one_introduction'pis  错误信息: 'list index out of range'pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 35, in get_one_introduction
+    introduction = get_one_data(name, url)
+  File "F:\CODE\item\backstage\utils\worm\baidu_encyclopedia.py", line 49, in get_one_data
+    content = items[0].get_text()
+IndexError: list index out of range

@@ -1,0 +1,1327 @@
+2019-03-17 15:57:07,041 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: localhost:27017: [WinError 10061] 由于目标计算机积极拒绝，无法连接。 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 26, in login
+    admin_user = AdminUser.objects(username=username).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 199, in _get_collection
+    db.client.is_primary:
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 663, in is_primary
+    return self._server_property('is_writable')
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 580, in _server_property
+    writable_server_selector)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+2019-03-17 15:59:05,651 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py: 第100行 - 方法名:get_permission_options  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py", line 95, in get_permission_options
+    permission_option_data = get_permission_convert().get('permission')
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\__init__.py", line 13, in get_permission_convert
+    provider = PermissionConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 46, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('PERMISSION_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json'
+2019-03-17 15:59:05,663 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py: 第87行 - 方法名:get_list_admin_user  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py", line 83, in get_list_admin_user
+    model_transform = get_permission_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\__init__.py", line 13, in get_permission_convert
+    provider = PermissionConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 46, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('PERMISSION_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json'
+2019-03-17 15:59:43,540 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py: 第95行 - 方法名:get_skill_options  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py", line 83, in get_skill_options
+    skill_option_data = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json'
+2019-03-17 15:59:43,540 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py: 第75行 - 方法名:get_list_skill  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py", line 71, in get_list_skill
+    model_transform = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json'
+2019-03-17 15:59:44,710 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py: 第95行 - 方法名:get_occupation_options  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py", line 83, in get_occupation_options
+    occupation_option_data = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json'
+2019-03-17 15:59:44,711 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py: 第75行 - 方法名:get_list_occupation  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py", line 71, in get_list_occupation
+    model_transform = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json'
+2019-03-17 15:59:46,644 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py: 第100行 - 方法名:get_permission_options  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py", line 95, in get_permission_options
+    permission_option_data = get_permission_convert().get('permission')
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\__init__.py", line 13, in get_permission_convert
+    provider = PermissionConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 46, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('PERMISSION_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json'
+2019-03-17 15:59:46,647 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py: 第87行 - 方法名:get_list_admin_user  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\admin_api.py", line 83, in get_list_admin_user
+    model_transform = get_permission_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\__init__.py", line 13, in get_permission_convert
+    provider = PermissionConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 46, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('PERMISSION_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/permission_convert.json'
+2019-03-17 16:00:03,309 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py: 第95行 - 方法名:get_skill_options  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py", line 83, in get_skill_options
+    skill_option_data = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json'
+2019-03-17 16:00:03,313 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py: 第75行 - 方法名:get_list_skill  错误信息: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json' 
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py", line 71, in get_list_skill
+    model_transform = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:/CODE/item/backstage/data/config/config/convert/sort_convert.json'
+
+
+2019-03-17 16:19:05,728 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py: 第95行 - 方法名:get_occupation_options  错误信息: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py", line 83, in get_occupation_options
+    occupation_option_data = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+
+
+2019-03-17 16:19:05,729 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py: 第75行 - 方法名:get_list_occupation  错误信息: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\occupation_api.py", line 71, in get_list_occupation
+    model_transform = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+
+
+2019-03-17 16:19:10,388 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py: 第95行 - 方法名:get_skill_options  错误信息: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py", line 83, in get_skill_options
+    skill_option_data = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+
+
+2019-03-17 16:19:10,392 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py: 第75行 - 方法名:get_list_skill  错误信息: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\skill_api.py", line 71, in get_list_skill
+    model_transform = get_sort_convert()
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\library\__init__.py", line 10, in get_sort_convert
+    provider = SortConvertProvider()
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 29, in __init__
+    ConvertProvider.__init__(self, CONVERT_JSON.get('SORT_CONVERT'))
+  File "F:\CODE\item\backstage\utils\data\manager\json\convert_provider.py", line 11, in __init__
+    Provider.__init__(self, manager)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 8, in __init__
+    self.__json_data = self.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 15, in read_json
+    return self.__manager.read_json()
+  File "F:\CODE\item\backstage\utils\data\manager\json\json_manager.py", line 12, in read_json
+    with open(self.__path, 'r', encoding='utf-8') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'F:\\CODE\\item\\backstage\\data\\config/config/convert/sort_convert.json'
+
+
+2019-03-17 21:30:22,843 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 306, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    admin_user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 570, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-03-23 10:49:42,869 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 26, in login
+    admin_user = AdminUser.objects(username=username).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 190, in _get_collection
+    db = cls._get_db()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 179, in _get_db
+    return get_db(cls._meta.get('db_alias', DEFAULT_CONNECTION_NAME))
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\connection.py", line 236, in get_db
+    db.authenticate(conn_settings['username'], conn_settings['password'], **auth_kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\database.py", line 1048, in authenticate
+    connect=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 500, in _cache_credentials
+    writable_preferred_server_selector)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+
+
+2019-03-23 10:49:46,941 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 26, in login
+    admin_user = AdminUser.objects(username=username).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 190, in _get_collection
+    db = cls._get_db()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 179, in _get_db
+    return get_db(cls._meta.get('db_alias', DEFAULT_CONNECTION_NAME))
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\connection.py", line 236, in get_db
+    db.authenticate(conn_settings['username'], conn_settings['password'], **auth_kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\database.py", line 1048, in authenticate
+    connect=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 500, in _cache_credentials
+    writable_preferred_server_selector)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+
+
+2019-03-23 10:50:07,836 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 26, in login
+    admin_user = AdminUser.objects(username=username).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 190, in _get_collection
+    db = cls._get_db()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 179, in _get_db
+    return get_db(cls._meta.get('db_alias', DEFAULT_CONNECTION_NAME))
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\connection.py", line 236, in get_db
+    db.authenticate(conn_settings['username'], conn_settings['password'], **auth_kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\database.py", line 1048, in authenticate
+    connect=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 500, in _cache_credentials
+    writable_preferred_server_selector)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+
+
+2019-03-23 10:50:19,010 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 26, in login
+    admin_user = AdminUser.objects(username=username).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 190, in _get_collection
+    db = cls._get_db()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 179, in _get_db
+    return get_db(cls._meta.get('db_alias', DEFAULT_CONNECTION_NAME))
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\connection.py", line 236, in get_db
+    db.authenticate(conn_settings['username'], conn_settings['password'], **auth_kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\database.py", line 1048, in authenticate
+    connect=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 500, in _cache_credentials
+    writable_preferred_server_selector)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+
+
+2019-03-23 10:50:36,772 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 26, in login
+    admin_user = AdminUser.objects(username=username).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 190, in _get_collection
+    db = cls._get_db()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 179, in _get_db
+    return get_db(cls._meta.get('db_alias', DEFAULT_CONNECTION_NAME))
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\connection.py", line 236, in get_db
+    db.authenticate(conn_settings['username'], conn_settings['password'], **auth_kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\database.py", line 1048, in authenticate
+    connect=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 500, in _cache_credentials
+    writable_preferred_server_selector)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+
+
+2019-03-23 10:51:47,424 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 26, in login
+    admin_user = AdminUser.objects(username=username).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 190, in _get_collection
+    db = cls._get_db()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 179, in _get_db
+    return get_db(cls._meta.get('db_alias', DEFAULT_CONNECTION_NAME))
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\connection.py", line 236, in get_db
+    db.authenticate(conn_settings['username'], conn_settings['password'], **auth_kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\database.py", line 1048, in authenticate
+    connect=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 500, in _cache_credentials
+    writable_preferred_server_selector)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 214, in select_server
+    address))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: 47.94.197.39:27017: [WinError 10051] 向一个无法连接的网络尝试了一个套接字操作。
+
+
+2019-03-29 13:33:25,216 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 'MongoEngine' object has no attribute 'ListFiled'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 306, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 13, in load_user
+    from models.skill_learn_assistant.ordinary_user import OrdinaryUser
+  File "F:\CODE\item\backstage\models\skill_learn_assistant\ordinary_user.py", line 8, in <module>
+    class OrdinaryUser(db.Document, UserMixin):
+  File "F:\CODE\item\backstage\models\skill_learn_assistant\ordinary_user.py", line 13, in OrdinaryUser
+    use_skill_list = db.ListFiled()
+AttributeError: 'MongoEngine' object has no attribute 'ListFiled'
+
+
+2019-03-29 13:34:52,560 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 'MongoEngine' object has no attribute 'ListFiled'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 347, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 306, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 13, in load_user
+    from models.skill_learn_assistant.ordinary_user import OrdinaryUser
+  File "F:\CODE\item\backstage\models\skill_learn_assistant\ordinary_user.py", line 8, in <module>
+    class OrdinaryUser(db.Document, UserMixin):
+  File "F:\CODE\item\backstage\models\skill_learn_assistant\ordinary_user.py", line 15, in OrdinaryUser
+    recommend_occupation_list = db.ListFiled()
+AttributeError: 'MongoEngine' object has no attribute 'ListFiled'
+
+
+2019-04-14 22:39:45,305 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 610, in receive_message
+    self.max_message_size)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\network.py", line 173, in receive_message
+    _receive_data_on_socket(sock, 16))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\network.py", line 232, in _receive_data_on_socket
+    chunk_length = sock.recv_into(mv[bytes_read:])
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 610, in __getitem__
+    for doc in clone:
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1189, in next
+    if len(self.__data) or self._refresh():
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1104, in _refresh
+    self.__send_message(q)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 931, in __send_message
+    operation, exhaust=self.__exhaust, address=self.__address)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1145, in _send_message_with_response
+    exhaust)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1156, in _reset_on_error
+    return func(*args, **kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\server.py", line 106, in send_message_with_response
+    reply = sock_info.receive_message(request_id)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 612, in receive_message
+    self._raise_connection_failure(error)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 743, in _raise_connection_failure
+    _raise_connection_failure(self.address, error)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 283, in _raise_connection_failure
+    raise AutoReconnect(msg)
+pymongo.errors.AutoReconnect: 47.94.197.39:27017: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+2019-04-14 22:39:47,690 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: 47.94.197.39:27017: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 610, in receive_message
+    self.max_message_size)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\network.py", line 173, in receive_message
+    _receive_data_on_socket(sock, 16))
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\network.py", line 232, in _receive_data_on_socket
+    chunk_length = sock.recv_into(mv[bytes_read:])
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 610, in __getitem__
+    for doc in clone:
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1189, in next
+    if len(self.__data) or self._refresh():
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1104, in _refresh
+    self.__send_message(q)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 931, in __send_message
+    operation, exhaust=self.__exhaust, address=self.__address)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1145, in _send_message_with_response
+    exhaust)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1156, in _reset_on_error
+    return func(*args, **kwargs)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\server.py", line 106, in send_message_with_response
+    reply = sock_info.receive_message(request_id)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 612, in receive_message
+    self._raise_connection_failure(error)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 743, in _raise_connection_failure
+    _raise_connection_failure(self.address, error)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 283, in _raise_connection_failure
+    raise AutoReconnect(msg)
+pymongo.errors.AutoReconnect: 47.94.197.39:27017: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+2019-04-24 14:11:20,791 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第46行 - 方法名:generate_model  错误信息: 'KmeansModelParamProvider' object has no attribute '__json_data'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 41, in generate_model
+    print(kmeans_model_provider.__json_data)
+AttributeError: 'KmeansModelParamProvider' object has no attribute '__json_data'
+
+
+2019-04-27 15:55:01,969 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第62行 - 方法名:save_model  错误信息: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 59, in save_model
+    status, msg = algorithms_api.save_blr_model(params.get("model_name"), key="test")
+AttributeError: 'NoneType' object has no attribute 'get'
+
+
+2019-04-27 15:55:02,989 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第62行 - 方法名:save_model  错误信息: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 59, in save_model
+    status, msg = algorithms_api.save_blr_model(params.get("model_name"), key="test")
+AttributeError: 'NoneType' object has no attribute 'get'
+
+
+2019-04-27 16:01:07,683 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第74行 - 方法名:load_model  错误信息: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 71, in load_model
+    status, msg = algorithms_api.load_blr_model(params.get("model_name"), key="test")
+AttributeError: 'NoneType' object has no attribute 'get'
+
+
+2019-04-27 16:01:09,047 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第74行 - 方法名:load_model  错误信息: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 71, in load_model
+    status, msg = algorithms_api.load_blr_model(params.get("model_name"), key="test")
+AttributeError: 'NoneType' object has no attribute 'get'
+
+
+2019-04-27 16:01:09,835 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第74行 - 方法名:load_model  错误信息: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 71, in load_model
+    status, msg = algorithms_api.load_blr_model(params.get("model_name"), key="test")
+AttributeError: 'NoneType' object has no attribute 'get'
+
+
+2019-04-27 16:01:10,653 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第74行 - 方法名:load_model  错误信息: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 71, in load_model
+    status, msg = algorithms_api.load_blr_model(params.get("model_name"), key="test")
+AttributeError: 'NoneType' object has no attribute 'get'
+
+
+2019-04-27 16:04:26,684 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第50行 - 方法名:generate_model  错误信息: Invalid number of initializations. n_init=0 must be bigger than zero.
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 47, in generate_model
+    algorithms_api.generate_blr_model("test")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 48, in generate_blr_model
+    raise e
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 42, in generate_blr_model
+    blr.generate_model(kmeans_param, knn_param)
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 55, in generate_model
+    self.__bis.generate_model(kmeans_param, knn_param)  # 进行物品相似度推荐系统核心算法建模
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\kernel\based_item_similarity.py", line 24, in generate_model
+    ).fit(self.__data)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 971, in fit
+    return_n_iter=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 301, in k_means
+    " n_init=%d must be bigger than zero." % n_init)
+ValueError: Invalid number of initializations. n_init=0 must be bigger than zero.
+
+
+2019-04-27 17:14:16,700 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第50行 - 方法名:generate_model  错误信息: Invalid number of initializations. n_init=0 must be bigger than zero.
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 47, in generate_model
+    algorithms_api.generate_blr_model("test")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 48, in generate_blr_model
+    raise e
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 42, in generate_blr_model
+    blr.generate_model(kmeans_param, knn_param)
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 55, in generate_model
+    self.__bis.generate_model(kmeans_param, knn_param)  # 进行物品相似度推荐系统核心算法建模
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\kernel\based_item_similarity.py", line 24, in generate_model
+    ).fit(self.__data)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 971, in fit
+    return_n_iter=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 301, in k_means
+    " n_init=%d must be bigger than zero." % n_init)
+ValueError: Invalid number of initializations. n_init=0 must be bigger than zero.
+
+
+2019-04-27 18:19:38,886 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py: 第50行 - 方法名:generate_model  错误信息: Invalid number of initializations. n_init=0 must be bigger than zero.
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 47, in generate_model
+    algorithms_api.generate_blr_model("test")
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 48, in generate_blr_model
+    raise e
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\api\algorithms_api.py", line 42, in generate_blr_model
+    blr.generate_model(kmeans_param, knn_param)
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\integration\based_library_recommendation.py", line 55, in generate_model
+    self.__bis.generate_model(kmeans_param, knn_param)  # 进行物品相似度推荐系统核心算法建模
+  File "F:\CODE\item\backstage\algorithms\skill_learn_assistant\recommended_system\kernel\based_item_similarity.py", line 24, in generate_model
+    ).fit(self.__data)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 971, in fit
+    return_n_iter=True)
+  File "D:\Environment\Anaconda3\lib\site-packages\sklearn\cluster\k_means_.py", line 301, in k_means
+    " n_init=%d must be bigger than zero." % n_init)
+ValueError: Invalid number of initializations. n_init=0 must be bigger than zero.
+
+
+2019-04-29 00:31:52,148 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:31:54,067 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:31:55,822 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:32:03,440 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:32:12,358 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:32:27,690 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:33:25,842 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:33:27,365 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:33:35,697 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:34:33,280 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:34:35,264 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:34:50,264 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:35:03,620 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第37行 - 方法名:login  错误信息: no such item for Cursor instance
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 19, in login
+    if current_user.is_authenticated:
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 307, in _get_current_object
+    return self.__local()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 26, in <lambda>
+    current_user = LocalProxy(lambda: _get_user())
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\utils.py", line 335, in _get_user
+    current_app.login_manager._load_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 359, in _load_user
+    return self.reload_user()
+  File "D:\Environment\Anaconda3\lib\site-packages\flask_login\login_manager.py", line 321, in reload_user
+    user = self.user_callback(user_id)
+  File "F:\CODE\item\backstage\config\extensions.py", line 16, in load_user
+    user = AdminUser.objects(id=user_id)[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\cursor.py", line 612, in __getitem__
+    raise IndexError("no such item for Cursor instance")
+IndexError: no such item for Cursor instance
+
+
+2019-04-29 00:42:55,383 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第39行 - 方法名:login  错误信息: 'LoginForm' object has no attribute 'user_email'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 23, in login
+    print(form.user_email)
+AttributeError: 'LoginForm' object has no attribute 'user_email'
+
+
+2019-05-01 18:10:18,948 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第38行 - 方法名:login  错误信息: 'LoginForm' object has no attribute 'csrf_token'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 23, in login
+    print(form.csrf_token)
+AttributeError: 'LoginForm' object has no attribute 'csrf_token'
+
+
+2019-05-03 13:59:03,548 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第38行 - 方法名:login  错误信息: 'LoginForm' object has no attribute 'username'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 25, in login
+    username = form.username.data
+AttributeError: 'LoginForm' object has no attribute 'username'
+
+
+2019-05-03 13:59:06,241 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第38行 - 方法名:login  错误信息: 'LoginForm' object has no attribute 'username'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 25, in login
+    username = form.username.data
+AttributeError: 'LoginForm' object has no attribute 'username'
+
+
+2019-05-03 13:59:52,261 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第38行 - 方法名:login  错误信息: Cannot resolve field "user_name"
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\transform.py", line 61, in query
+    fields = _doc_cls._lookup_field(parts)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\base\document.py", line 1009, in _lookup_field
+    raise LookUpError('Cannot resolve field "%s"' % field_name)
+mongoengine.errors.LookUpError: Cannot resolve field "user_name"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 27, in login
+    admin_user = AdminUser.objects(user_name=user_name).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 299, in first
+    result = queryset[0]
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 197, in __getitem__
+    queryset._cursor[key],
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 1567, in _cursor
+    self._cursor_obj = self._collection.find(self._query,
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\base.py", line 1613, in _query
+    self._mongo_query = self._query_obj.to_query(self._document)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\visitor.py", line 89, in to_query
+    query = query.accept(QueryCompilerVisitor(document))
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\visitor.py", line 155, in accept
+    return visitor.visit_query(self)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\visitor.py", line 78, in visit_query
+    return transform.query(self.document, **query.query)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\transform.py", line 63, in query
+    raise InvalidQueryError(e)
+mongoengine.errors.InvalidQueryError: Cannot resolve field "user_name"
+
+
+2019-05-03 14:01:09,522 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第38行 - 方法名:login  错误信息: E11000 duplicate key error collection: item_datas.admin_user index: user_name_1 dup key: { : null }
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 27, in login
+    admin_user = AdminUser.objects(user_name=user_name).first()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 200, in _get_collection
+    cls.ensure_indexes()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 884, in ensure_indexes
+    collection.create_index(fields, background=background, **opts)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 1958, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 1860, in __create_index
+    session=session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 244, in _command
+    retryable_write=retryable_write)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 579, in command
+    unacknowledged=unacknowledged)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\network.py", line 150, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 148, in _check_command_response
+    raise DuplicateKeyError(errmsg, code, response)
+pymongo.errors.DuplicateKeyError: E11000 duplicate key error collection: item_datas.admin_user index: user_name_1 dup key: { : null }
+
+
+2019-05-03 14:05:13,943 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py: 第59行 - 方法名:get_current_user  错误信息: 'AdminUser' object has no attribute 'username'
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\auth_api.py", line 57, in get_current_user
+    return json_data({'username': current_user.username})
+  File "D:\Environment\Anaconda3\lib\site-packages\werkzeug\local.py", line 348, in __getattr__
+    return getattr(self._get_current_object(), name)
+AttributeError: 'AdminUser' object has no attribute 'username'
+
+
+2019-05-04 00:06:48,323 - skill_learn_assistant_admin:ERROR - F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\ordinary_api.py: 第82行 - 方法名:get_list_ordinary_user  错误信息: E11000 duplicate key error collection: item_datas.ordinary_user index: user_name_1 dup key: { : null }
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\ordinary_api.py", line 77, in get_list_ordinary_user
+    model_objects = OrdinaryUser.objects.skip((current_page * page_size)).limit(page_size)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\queryset\manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 200, in _get_collection
+    cls.ensure_indexes()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 884, in ensure_indexes
+    collection.create_index(fields, background=background, **opts)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 1958, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 1860, in __create_index
+    session=session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 244, in _command
+    retryable_write=retryable_write)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\pool.py", line 579, in command
+    unacknowledged=unacknowledged)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\network.py", line 150, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 148, in _check_command_response
+    raise DuplicateKeyError(errmsg, code, response)
+pymongo.errors.DuplicateKeyError: E11000 duplicate key error collection: item_datas.ordinary_user index: user_name_1 dup key: { : null }
+
+
+'2019-05-23 14:13:28,117'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\user\\ordinary_api.py'pis: 第25行 - 方法名:'add_ordinary_user'pis  错误信息: 'Tried to save duplicate unique keys (E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" })'pis
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 378, in save
+    object_id = self._save_create(doc, force_insert, write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 434, in _save_create
+    object_id = collection.save(doc, **write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 3137, in save
+    to_save, True, check_keys, manipulate, write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1248, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1201, in _retry_with_session
+    return func(session, sock_info, retryable)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 592, in _insert_command
+    _check_write_command_response(result)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 217, in _check_write_command_response
+    _raise_last_write_error(write_errors)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 198, in _raise_last_write_error
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+pymongo.errors.DuplicateKeyError: E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" }
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\ordinary_api.py", line 22, in add_ordinary_user
+    model_object.save()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 401, in save
+    raise NotUniqueError(message % six.text_type(err))
+mongoengine.errors.NotUniqueError: Tried to save duplicate unique keys (E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" })
+
+
+'2019-05-23 16:14:02,528'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\user\\ordinary_api.py'pis: 第25行 - 方法名:'add_ordinary_user'pis  错误信息: 'Tried to save duplicate unique keys (E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" })'pis
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 378, in save
+    object_id = self._save_create(doc, force_insert, write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 434, in _save_create
+    object_id = collection.save(doc, **write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 3137, in save
+    to_save, True, check_keys, manipulate, write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1248, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1201, in _retry_with_session
+    return func(session, sock_info, retryable)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 592, in _insert_command
+    _check_write_command_response(result)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 217, in _check_write_command_response
+    _raise_last_write_error(write_errors)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 198, in _raise_last_write_error
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+pymongo.errors.DuplicateKeyError: E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" }
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\ordinary_api.py", line 22, in add_ordinary_user
+    model_object.save()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 401, in save
+    raise NotUniqueError(message % six.text_type(err))
+mongoengine.errors.NotUniqueError: Tried to save duplicate unique keys (E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" })
+
+
+'2019-05-23 16:14:04,853'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\user\\ordinary_api.py'pis: 第25行 - 方法名:'add_ordinary_user'pis  错误信息: 'Tried to save duplicate unique keys (E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" })'pis
+Traceback (most recent call last):
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 378, in save
+    object_id = self._save_create(doc, force_insert, write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 434, in _save_create
+    object_id = collection.save(doc, **write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 3137, in save
+    to_save, True, check_keys, manipulate, write_concern)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 607, in _insert
+    bypass_doc_val, session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 595, in _insert_one
+    acknowledged, _insert_command, session)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1248, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 1201, in _retry_with_session
+    return func(session, sock_info, retryable)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\collection.py", line 592, in _insert_command
+    _check_write_command_response(result)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 217, in _check_write_command_response
+    _raise_last_write_error(write_errors)
+  File "D:\Environment\Anaconda3\lib\site-packages\pymongo\helpers.py", line 198, in _raise_last_write_error
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+pymongo.errors.DuplicateKeyError: E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" }
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\user\ordinary_api.py", line 22, in add_ordinary_user
+    model_object.save()
+  File "D:\Environment\Anaconda3\lib\site-packages\mongoengine\document.py", line 401, in save
+    raise NotUniqueError(message % six.text_type(err))
+mongoengine.errors.NotUniqueError: Tried to save duplicate unique keys (E11000 duplicate key error collection: item_datas.ordinary_user index: user_email_1 dup key: { : "test@qq.com" })
+
+
+'2019-05-23 17:10:29,610'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\system\\config_api.py'pis: 第80行 - 方法名:'save_model'pis  错误信息: "'A'"pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 72, in save_model
+    knn_model_provider.param = knn_param
+  File "F:\CODE\item\backstage\utils\data\manager\json\model_param_provider.py", line 49, in param
+    self.set_key_value(self.get_key_value(self.json_data, self.current_model_name), "param", value)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 25, in get_key_value
+    return json_data[key]
+KeyError: 'A'
+
+
+'2019-05-23 17:10:34,350'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\system\\config_api.py'pis: 第80行 - 方法名:'save_model'pis  错误信息: "'v'"pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 72, in save_model
+    knn_model_provider.param = knn_param
+  File "F:\CODE\item\backstage\utils\data\manager\json\model_param_provider.py", line 49, in param
+    self.set_key_value(self.get_key_value(self.json_data, self.current_model_name), "param", value)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 25, in get_key_value
+    return json_data[key]
+KeyError: 'v'
+
+
+'2019-05-23 17:12:21,805'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\system\\config_api.py'pis: 第80行 - 方法名:'save_model'pis  错误信息: 'Object of type property is not JSON serializable'pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 74, in save_model
+    knn_model_provider.write_json(knn_model_provider.json_data)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 20, in write_json
+    self.__manager.write_json(data)
+  File "F:\CODE\item\backstage\utils\data\manager\json\manager.py", line 22, in write_json
+    json.dump(data, f, indent=4)
+  File "D:\Environment\Anaconda3\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type property is not JSON serializable
+
+
+'2019-05-23 17:20:50,112'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\system\\config_api.py'pis: 第78行 - 方法名:'save_model'pis  错误信息: 'setdefault expected at least 1 arguments, got 0'pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 69, in save_model
+    {}.setdefault()
+TypeError: setdefault expected at least 1 arguments, got 0
+
+
+'2019-05-23 17:21:16,861'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\system\\config_api.py'pis: 第77行 - 方法名:'save_model'pis  错误信息: 'Object of type property is not JSON serializable'pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 73, in save_model
+    kmeans_model_provider.write_json(kmeans_json_data)
+  File "F:\CODE\item\backstage\utils\data\manager\json\provider.py", line 20, in write_json
+    self.__manager.write_json(data)
+  File "F:\CODE\item\backstage\utils\data\manager\json\manager.py", line 22, in write_json
+    json.dump(data, f, indent=4)
+  File "D:\Environment\Anaconda3\lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "D:\Environment\Anaconda3\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type property is not JSON serializable
+
+
+'2019-05-24 10:03:26,645'pis - 'skill_learn_assistant_admin'pis:'ERROR'pis - 'F:\\CODE\\item\\backstage\\apis\\skill_learn_assistant\\admin\\system\\config_api.py'pis: 第87行 - 方法名:'save_model'pis  错误信息: "unhashable type: 'dict'"pis
+Traceback (most recent call last):
+  File "F:\CODE\item\backstage\apis\skill_learn_assistant\admin\system\config_api.py", line 77, in save_model
+    kmeans_json_data[model_name] = {"param", kmeans_param}
+TypeError: unhashable type: 'dict'

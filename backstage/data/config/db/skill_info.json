@@ -1,0 +1,8 @@
+{
+    "info": {
+        "db_name": "item_datas",
+        "tab_name": "skill",
+        "label": ["no", "name", "sort_major", "sort_secondary", "sort_language", "sort_level"],
+        "no_use_label": ["no", "name",  "sort_level"]
+    }
+}

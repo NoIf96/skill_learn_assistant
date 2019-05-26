@@ -1,0 +1,9 @@
+
+
+2019-04-22 22:05:21,104 - mongo_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\mongo\manager.py: 第48行 - 方法名:query_all  错误信息: root 查询全部数据错误
+
+
+2019-05-19 00:35:30,004 - mongo_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\mongo\manager.py: 第48行 - 方法名:query_all  错误信息: root 查询全部数据错误
+
+
+2019-05-19 00:41:18,495 - mongo_manage:ERROR - F:\CODE\item\backstage\utils\data\manager\mongo\manager.py: 第48行 - 方法名:query_all  错误信息: root 查询全部数据错误

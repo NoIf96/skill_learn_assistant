@@ -1,0 +1,16 @@
+{
+    "default": {
+        "param": {
+            "n_neighbors": 2,
+            "radius": 0.3,
+            "algorithm": "auto"
+        }
+    },
+    "tmp": {
+        "param": {
+            "n_neighbors": 2,
+            "radius": 0.3,
+            "algorithm": "auto"
+        }
+    }
+}
